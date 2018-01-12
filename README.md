@@ -17,7 +17,7 @@ Sample DApp to illustrate how to use web3js-raw package to interact with a Smart
   git clone https://github.com/fidenz-chim/fundsplitter_web3jsraw.git
   npm install
   ```
-+ Create and account in infura.io 
++ Create an account in infura.io 
   + Obtain the token ans assign that to INFURAIO_TOKEN in _fund_splitter_dapp.js_
 
 + Bundle all Javascript so you could run this app locally from browser (withot a web server)
