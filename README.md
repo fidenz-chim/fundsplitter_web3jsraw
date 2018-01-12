@@ -24,3 +24,16 @@ Sample DApp to illustrate how to use web3js-raw package to interact with a Smart
   + ```browserify fund_splitter_dapp.js -o main.js```
 
 + Open index.html project folder
+
+#### How to use the app ####
+
++ To interact with already diployed contract
+   + Members->Get Count => Number of members in the contract
+   + Members->Get Member At => Return address of the member for the list index specified above
+   + Members->Add New => Specify a new member address to add that member to list (only contract owner could do this) (increase the Members Count)
+   
+   + Funds->Get Count => Number of undistributed funds in the contract
+   + Funds->Get Fund At => Return amount in Wei of the fund for the list index specified above
+   + Funds->Add Funds => Add new funds entry to the contract (increase the Funds Count)
+   
+   + Disperse Funds => distribute funds eaqually to members in the list. Any remainder will be added to contract's balance
