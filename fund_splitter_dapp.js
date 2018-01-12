@@ -9,13 +9,12 @@ var CONTRACT_CODE = '0x6060604052341561000f57600080fd5b336000806101000a81548173f
 
 var CONTRACT_ADDRESS = "0x5b7ab83309d7f7c621d9d7505c520a1fde6ae606";
 
-var CONTRACT_OWNER = "0x00002d5cc95777ed0f1dbcac9b5a30fb1868eea4"; //This account should have an Ether balance
-var MEMBER_ADDRESS = "0x001a18EaFA0b300247Be05ECE41DE8d78c7B0620";
-var SOURCE_ADDRESS = "0x00002d5cc95777ed0f1dbcac9b5a30fb1868eea4";
-var COINBASE_PWD = "chim1234";
+var CONTRACT_OWNER = "<address of the contrcat owner>"; //This account should have an Ether balance
+var MEMBER_ADDRESS = "<address of an additional account>";
+var SOURCE_ADDRESS = "<address of an additional account>";
 var TEMP_TXN_HASH = '0xc57dca878e31e974a03133a41e04190630aaa9ec3f141e172b3376368f80e973';
 var LIST_INDEX = '0';
-var PVT_KEY = "27f1693deb0dcf2b845c52c78f72bdacd3b9027eb65bcb577ee414600f4e9ae1";
+var PVT_KEY = "private key of CONTRACT_OWNER";
 
 var GAS_LIMIT = 4500000;
 
